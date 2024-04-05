@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MyBook"
+        android:textSize="50sp"
+        android:layout_marginTop="100sp"
+        android:layout_marginLeft="120sp"
+        android:textColor="@color/customcolor3"/>
+
+    <LinearLayout
+        android:id="@+id/square"
+        android:layout_width="292dp"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/customcolor1"
+        >
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textSize="25sp" />
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/usernameedit"
+            android:textSize="25sp"
+            android:background="@color/white"/>
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="25sp" />
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/passedit"
+            android:textSize="25sp"
+            android:inputType="textPassword"
+            android:background="@color/white"/>
+
+        <Button
+            android:id="@+id/LoginButton"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textSize="25sp"
+            android:backgroundTint="@color/customcolor3"/>
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textSize="25sp"
+            android:id="@+id/RegisterButton1"
+            android:backgroundTint="@color/customcolor3"/>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>
