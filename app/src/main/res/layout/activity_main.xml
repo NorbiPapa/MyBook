@@ -11,8 +11,8 @@
         android:layout_height="wrap_content"
         android:text="MyBook"
         android:textSize="50sp"
-        android:layout_marginTop="100sp"
-        android:layout_marginLeft="120sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="110sp"
         android:textColor="@color/customcolor3"/>
 
     <LinearLayout
@@ -29,7 +29,7 @@
             android:id="@+id/username"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Username"
+            android:text="Email"
             android:textSize="25sp" />
         <EditText
             android:layout_width="250dp"
@@ -41,7 +41,7 @@
             android:id="@+id/password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Password"
+            android:text="Jelszó"
             android:textSize="25sp" />
         <EditText
             android:layout_width="250dp"
@@ -55,16 +55,16 @@
             android:id="@+id/LoginButton"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:text="Login"
+            android:text="Belépés"
             android:textSize="25sp"
-            android:backgroundTint="@color/customcolor3"/>
+            android:backgroundTint="@color/customcolor4"/>
         <Button
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:text="Register"
             android:textSize="25sp"
             android:id="@+id/RegisterButton1"
-            android:backgroundTint="@color/customcolor3"/>
+            android:backgroundTint="@color/customcolor4"/>
 
 
     </LinearLayout>

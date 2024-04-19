@@ -1,15 +1,16 @@
 package com.example.mybook;
 
 public class Response {
+    private int responseCode; // Válaszkód
+    private String responseMessage; // Válaszüzenet
 
-    private int responseCode;
-    private String responseMessage;
-
+    // Konstruktor a válaszkód és válaszüzenet beállításához
     public Response(int responseCode, String responseMessage) {
         this.responseCode = responseCode;
         this.responseMessage = responseMessage;
     }
 
+    // Getter és setter metódus a válaszkódhoz
     public int getResponseCode() {
         return responseCode;
     }
@@ -18,6 +19,7 @@ public class Response {
         this.responseCode = responseCode;
     }
 
+    // Getter és setter metódus a válaszüzenethez
     public String getResponseMessage() {
         return responseMessage;
     }

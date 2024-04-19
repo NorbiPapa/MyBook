@@ -5,11 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".RegisterActivity">
-    <ImageView
-        android:layout_width="75sp"
-        android:layout_height="75sp"
-        android:src="@drawable/backarrow"
-        android:id="@+id/backarrow" />
     <LinearLayout
         android:id="@+id/square"
         android:layout_width="292dp"
@@ -34,7 +29,7 @@
             android:id="@+id/username"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Username"
+            android:text="Felhasználó név"
             android:textSize="25sp" />
         <EditText
             android:layout_width="250dp"
@@ -46,7 +41,7 @@
             android:id="@+id/password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Password"
+            android:text="Jelszó"
             android:textSize="25sp" />
         <EditText
             android:layout_width="250dp"
@@ -60,10 +55,19 @@
         <Button
             android:layout_width="250dp"
             android:layout_height="wrap_content"
-            android:text="Register"
+            android:text="Regisztráció"
             android:textSize="25sp"
             android:id="@+id/send"
-            android:backgroundTint="#171517" />
+            android:backgroundTint="@color/customcolor4"
+            />
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="Vissza"
+            android:textSize="25sp"
+            android:id="@+id/backtobtn"
+            android:backgroundTint="@color/customcolor4"
+            />
 
 
     </LinearLayout>

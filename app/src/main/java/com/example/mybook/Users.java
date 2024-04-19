@@ -1,16 +1,18 @@
 package com.example.mybook;
 
 public class Users {
-    String email;
-    String username;
-    String password;
+    String email; // Felhasználó e-mail címe
+    String username; // Felhasználó felhasználóneve
+    String password; // Felhasználó jelszava
 
+    // Konstruktor a felhasználó létrehozásához
     public Users(String email, String username, String password) {
         this.email = email;
         this.username = username;
         this.password = password;
     }
 
+    // Getter és setter metódusok az e-mail címhez, felhasználónévhez és jelszóhoz
     public String getEmail() {
         return email;
     }
